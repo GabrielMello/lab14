@@ -59,7 +59,7 @@ class MyApp:
 		global drawpadwidth
 		global drawpadheight
 		x1,y1,x2,y2 = drawpad.coords(oval)
-		if x1 < 480:
+		if x2 < 480:
 		    drawpad.move(oval,20,0)
 	
 
